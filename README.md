@@ -144,14 +144,10 @@ df['pressure'].mean()
 px.histogram(df, x = 'pressure', y = 'month', histfunc = 'avg')
 
 # Plot a line chart of the daily atmospheric pressure by terrestrial date
-# note: you do not need to modify the dataframe 
-# use the original one you loaded at the beginning of the milestone.
 
 px.line(df,x='pressure',y='terrestrial_date')
 
 # Plot a line chart the daily minimum temp
-# note: you do not need to modify the dataframe 
-# use the original one you loaded at the beginning of the milestone.
 
 px.line(df,x='min_temp',y='terrestrial_date')
 
